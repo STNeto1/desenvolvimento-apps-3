@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Site</title>
-  </head>
-  <body>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                text-align: center;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+                transition: all 0.25s ease-out;
+            }
+        }
+    </style>
+</head>
+
+<body>
     <main>
         <h1>Olá, Html!</h1>
+
+        <img src="images/img1.png" alt="gopher 1" />
+        <img src="images/img2.png" alt="gopher 2" />
     </main>
 
-    <img src="images/img1.png" alt="gopher 1"/>
-    <img src="images/img2.png" alt="gopher 2"/>
-  </body>
+</body>
+
 </html>
